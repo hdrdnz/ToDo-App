@@ -1,0 +1,89 @@
+ .container {
+     width: 700px;
+     height: 800px;
+
+
+
+ }
+
+ body {
+     margin-top: 20px;
+     background-image: url(images/sky-sunset-colorful-sunrise.jpg);
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-attachment: fixed;
+     background-size: cover;
+
+
+
+ }
+
+ /* elipsis yanındakini ikonu kaybeder. */
+ .dropdown-toggle::after {
+     display: none;
+ }
+
+ .button {
+     background-color: #DFF6FF;
+ }
+
+ .card-header {
+     background-color: #CFD2CF;
+     color: #C499BA;
+     text-align: center;
+     font-size: 25px;
+     font-style: italic;
+     font-family: fantasy;
+ }
+
+ .card-body {
+     background-color: #DEB6AB;
+
+     margin-top: 5px;
+ }
+
+ .form-control {
+     background-color: #EEE3CB;
+ }
+
+ .card {
+     background-color: #EEE3CB;
+ }
+
+ .task {
+     background-color: #BFACE0;
+ }
+
+ .task {
+     /* ögelere esneklik sağlar. */
+     display: flex;
+     align-content: center;
+     /* space-between :esnek kutu içerisindeki ilk hat ana eksenin başlangıç (start) posizyonuna doğru son hat ise ana-eksenin sonuna (end) doğru konumlanır. */
+     justify-content: space-between;
+ }
+
+ .task label.checked {
+     text-decoration: line-through;
+ }
+
+ .controls {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .filters span.active {
+     color: blue;
+ }
+
+ .filters span {
+     margin-right: 5px;
+     font-size: 15px;
+     column-rule-color: #444;
+     /* üzerine gelindiği zaman el işareti çıkar. */
+     cursor: pointer;
+ }
+
+ .list-group {
+     color: darkblue;
+ }
